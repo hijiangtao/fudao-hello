@@ -1,10 +1,14 @@
 {
   "name": "fudao-hello",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
+    "init": "npm install && npm install -g yalc",
     "ng": "ng",
     "start": "ng serve",
+    "push": "cd dist/hello && yalc push",
+    "problem-local-build": "npm run build && npm run push",
     "build": "ng build",
+    "postpublish": "yalc remove --all",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
