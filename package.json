@@ -1,5 +1,5 @@
 {
-  "name": "fudao-hello",
+  "name": "@fudao/hello",
   "version": "0.0.1",
   "scripts": {
     "init": "npm install && npm install -g yalc",
@@ -13,7 +13,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~9.0.2",
     "@angular/common": "~9.0.2",
@@ -49,5 +48,19 @@
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5"
-  }
+  },
+  "description": "```shell npm install @fudao/hello --save ```",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hijiangtao/fudao-hello.git"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "hijiangtao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hijiangtao/fudao-hello/issues"
+  },
+  "homepage": "https://github.com/hijiangtao/fudao-hello#readme"
 }
