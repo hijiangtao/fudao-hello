@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'lib-hello',
   templateUrl: './hello.component.html',
-  styles: []
+  styleUrls: ['./hello.component.scss'],
 })
 export class HelloComponent implements OnInit {
   text: string;
@@ -11,7 +11,11 @@ export class HelloComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.text = 'hello works!';
+    this.text = 'hello works  again!';
+
+    // setInterval(() => {
+    //   this.text += Math.floor(Math.random());
+    // });
   }
 
 }
