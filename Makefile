@@ -1,6 +1,6 @@
 init:
 	npm install
-	npm install -g yalc
+	npm install -g yalc nodemon
 
 push:
 	npm run build
